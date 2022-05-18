@@ -68,8 +68,8 @@ var design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬
 
 alert(design);
 
-Chapter No 3
-Question No 1
+// Chapter No 3
+// Question No 1
 
 var myage =  18; 
 
