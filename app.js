@@ -1,20 +1,20 @@
 // // Chapter No 1
 // // Question No 1
-// alert("Chapter 1 of JavaScript");
+// alert("Chapter 1 of JavaScript" + "<br/>");
 
 // // Question No 2
-// alert("Error! Please enter a valid password");
+// alert("Error! Please enter a valid password" + "<br/>");
 
 // // Question No 3
-// alert("Welcome to JS Land... \nHappy Coding!");
+// alert("Welcome to JS Land... \nHappy Coding!" + "<br/>");
 
 // // Question No 4
-// alert("Welcome to JS Land...");
+// alert("Welcome to JS Land..." + "<br/>");
 
-// alert("Happy Coding \nPrevent this page from creating additional dialogs.");
+// alert("Happy Coding \nPrevent this page from creating additional dialogs." + "<br/>");
 
 // // Question No 5
-// alert("Hello... I  can run JS through my web browser console");
+// alert("Hello... I  can run JS through my web browser console" + "<br/>");
 
 
 // // Chapter No 2
@@ -29,65 +29,65 @@
 
 // var message = "Hello World";
 
-// alert(message);
+// alert(message + "<br/>");
 
 // // Question No 4
 
 // var age = "18 years old"
 // var study = "I am student of Web & App development at SMIT"
 
-// alert(myname);
-// alert(age);
-// alert(study);
+// alert(myname + "<br/>");
+// alert(age + "<br/>");
+// alert(study + "<br/>");
 
 // // Question No 5
 
 // var pizza = "PIZZA \nPIZZ \nPIZ \nPI \nP"
 
-// alert(pizza);
+// alert(pizza + "<br/>");
 
 // // Question No 6
 
 // var email = "muhammadaatir.30@gmail.com"
 
-// alert("My Email Address is " + email);
+// alert("My Email Address is " + email + "<br/>");
 
 // // Question No 7
 
 // var book = "A smarter way to learn JavaScript"
 
-// alert("I am trying to learn from a book " + book);
+// alert("I am trying to learn from a book " + book + "<br/>");
 
 // // Question No 8
 
-// document.write ("Yah! I can write HTML content through JavaScript");
+// document.write ("Yah! I can write HTML content through JavaScript" + "<br/>");
 
 // // Question No 9
 
 // var design = "▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬"
 
-// alert(design);
+// alert(design + "<br/>");
 
 // // Chapter No 3
 // // Question No 1
 
 // var myage =  18; 
 
-// alert("I am " + myage + " years old.");
+// alert("I am " + myage + " years old." + "<br/>");
 
 // // Question No 2
 
 // var visit =  2; 
 
-// alert("You have visited this site " + visit + " times" );
+// alert("You have visited this site " + visit + " times" + "<br/>");
 
 // // Question No 3
 
 // var birthdate = 2003;
 // // Question No 2 
 
-// document.write("My birth year is " + birthdate );
-// document.write("<br>");
+// document.write("My birth year is " + birthdate + "<br/>");
+// document.write("<br>" + "<br/>");
 // document.write("  Data type of my declared variable is Number.")
 
 // // Question No 4
@@ -96,7 +96,7 @@
 // var num1 = 5;
 // var thing = " T-Shirts(s)";
 
-// document.write("<br> <br>");
+// document.write("<br> <br>" + "<br/>");
 // document.write(name + " ordered " + num1 + thing + " on XYZ Clothing Store")
 
 //  // Chapter No 4
@@ -260,7 +260,106 @@
 // document.write("<h4>" + "Amount Snacks Per Day:  " + amount + "</h4>")
 // document.write("<h4>" + "You will need  " + ((maxage - currentAge) * amount) + favSnack + "to last you until the ripe old age of  " + maxage + "</h4>")
 
+// // Chapter No 6
+// // Question No 1
 
+// var a = 6;
 
+// document.write("<h4>" + "The value of a is:  " + a + "</h4>")
+// document.write("The value of ++a is:  " + ++a + "<br/>")
+// document.write("Now the value is:  " + a + "<br/>" + "<br/>" )
 
+// document.write("The value of a++ is:  " + a++ + "<br/>")
+// document.write("Now the value is:  " + a + "<br/>" + "<br/>" )
 
+// document.write("The value of --a is:  " + --a + "<br/>")
+// document.write("Now the value is:  " + a + "<br/>" + "<br/>" )
+
+// document.write("The value of a-- is:  " + a-- + "<br/>")
+// document.write("Now the value is:  " + a + "<br/>" + "<br/>" )
+
+// // Question No 2
+
+// var A = 2, B = 1;
+
+// var result = --A - --B + ++B + B--;
+
+// document.write("A is " + "<b>" + A + "</b>" + "<br/>");
+// document.write("B is " +"<b>" + B + "</b>" + "<br/>");
+// document.write(" Method:  --A - --B + ++B + B--" + "<br/>");
+// document.write(" Explanation:  1 - 0 + 1 + 1" + "<br/>");
+// document.write("Result is " + "<b>" + result + "</b>" + "<br/>");
+
+// // Question No 3
+
+// var user = prompt("Enter Your Name");
+// alert("Hello, " + user + "\nWelcome To Our Website!")
+
+// // Question No 4 
+
+// var table_of = prompt("You want to see table of:  ")
+// var only_num = 1;
+// document.write(table_of + " x " + only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+// document.write(table_of + " x " + ++only_num + " = " + (table_of*only_num) + "<br/>");
+
+// // Question No 5
+
+var firstSub = prompt("Enter Your First Subject")
+var secondSub = prompt("Enter Your Second Subject")
+var thirdSub = prompt("Enter Your Third Subject")
+var firstSubMarks = +prompt("Enter Marks of  " + firstSub + "\n Please Enter Valid Number(0-100)")
+var secondSubMarks = +prompt("Enter Marks of  " + secondSub + "\n Please Enter Valid Number(0-100)")
+var thirdSubMarks = +prompt("Enter Marks of  " + thirdSub + "\n Please Enter Valid Number(0-100)")
+var totalMarks = 100;
+var obtainMarks = firstSubMarks+secondSubMarks+thirdSubMarks
+var percentage =  ((obtainMarks/(totalMarks*3))*100)
+
+document.write("<h3>" + "Subject&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Total Marks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Obtained Marks" + "</h3>")
+document.write("<h5>" + firstSub + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + totalMarks+   "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ firstSubMarks + "</h5>")
+document.write("<h5>" + secondSub  + "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + totalMarks +   "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ secondSubMarks +"</h5>")
+document.write("<h5>" + thirdSub +  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + totalMarks +  "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ thirdSubMarks + "</h5>")
+document.write("<h3>"+"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ (totalMarks*3)+ "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ obtainMarks + "</h3>")
+document.write("<h3>"+ "Percentage:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ percentage + "</h3>")
+
+if (percentage >= 80 ) {
+    document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "A-one" + "</h3>")
+
+}
+else if (percentage >= 70 ) {
+    document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "A" + "</h3>")
+
+}
+else if (percentage >= 60 ) {
+    document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "B" + "</h3>")
+
+}
+else if (percentage >= 50 ) {
+    document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "C" + "</h3>")
+
+}
+else if (percentage >= 40 ) {
+    document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "D" + "</h3>")
+
+}
+else if (percentage <= 40 ) {
+    document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "Failed" + "</h3>")
+
+}
