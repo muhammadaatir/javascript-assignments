@@ -260,7 +260,7 @@
 // document.write("<h4>" + "Amount Snacks Per Day:  " + amount + "</h4>")
 // document.write("<h4>" + "You will need  " + ((maxage - currentAge) * amount) + favSnack + "to last you until the ripe old age of  " + maxage + "</h4>")
 
-// // Chapter No 6
+// // Chapter No 6-9
 // // Question No 1
 
 // var a = 6;
@@ -340,26 +340,269 @@
 // document.write("<h3>"+ "Percentage:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ percentage + "</h3>")
 
 // if (percentage >= 80 ) {
-//     document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "A-one" + "</h3>")
+//     document.write("<h3>"+ "Grade:  " +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "A-one" + "</h3>")
 
 // }
 // else if (percentage >= 70 ) {
-//     document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "A" + "</h3>")
+//     document.write("<h3>"+ "Grade:  " +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "A" + "</h3>")
 
 // }
 // else if (percentage >= 60 ) {
-//     document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "B" + "</h3>")
+//     document.write("<h3>"+ "Grade:  " +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "B" + "</h3>")
 
 // }
 // else if (percentage >= 50 ) {
-//     document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "C" + "</h3>")
+//     document.write("<h3>"+ "Grade:  " +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "C" + "</h3>")
 
 // }
 // else if (percentage >= 40 ) {
-//     document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "D" + "</h3>")
+//     document.write("<h3>"+ "Grade:  " +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "D" + "</h3>")
 
 // }
 // else if (percentage <= 40 ) {
-//     document.write("<h3>"+ "Grade:" +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "Failed" + "</h3>")
+//     document.write("<h3>"+ "Grade:  " +"&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"+ "Failed" + "</h3>")
 
 // }
+
+
+// // Chapter No 9 - 11
+// // Quesiton No 1
+
+// var cityName = prompt("Enter Your City Name");
+
+// if (cityName === "karachi" || cityName === "Karachi") {
+//     alert("Welcome to City of Lights")
+// } else {
+//     alert("Welcome to " + cityName )
+// }
+
+// // Question No 2
+
+// var gender = prompt("Enter Your Gender");
+
+// if (gender === "male" || gender === "Male" ) {
+//     alert("Good Morning Sir")
+// }
+// else if (gender === "female" || gender === "Female" ) {
+//     alert("Good Morning Ma'am")
+// }
+// else {
+//     alert("Enter Correct Gender 'Male' or 'Female' ")
+// }
+
+// // Question No 3
+
+// var trafficSignal = prompt("Colour of road traffic signal is:")
+
+// if (trafficSignal === "red" || trafficSignal === "Red" ) {
+//     alert("Must Stop!");
+// } 
+// else if (trafficSignal === "yellow" || trafficSignal === "Yellow" ) {
+//     alert("Ready to Move!");
+// }
+// else if (trafficSignal === "green" || trafficSignal === "Green" ) {
+//     alert("Move Now!");
+// }
+// else  {
+//     alert("Enter Correct Colour!");
+// }
+
+// // Question No 4 
+
+// var remainingFuel = +prompt("Enter Remaining Fuel of Your Car ((0.1-your value)  in litre)");
+
+// if (remainingFuel <= 0.25) {
+//     alert("Please refill the fuel in your car!")   
+// } else {
+//     alert("Enjoy Your Ride!");
+// }
+
+// // Question No 5
+
+//a
+
+// var a = 4;
+
+// if (++a === 5) {
+//     alert("given condition for variable a is true"); 
+// }
+
+// b
+
+// var b = 82;
+
+// if (b++ === 83) {
+//     alert("given condition for variable b is true"); 
+// }
+
+// c
+
+// var c = 12;
+//  if (c++ === 13) {
+//     alert("condition 1 is true"); 
+// }
+// if (c === 13) {
+//     alert("condition 2 is true"); 
+// } 
+// if (++c < 14) {
+//     alert("condition 3 is true"); 
+// }
+// if(c === 14) {
+//     alert("condition 4 is true"); 
+// }
+
+// d
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+
+// if (totalCost === laborCost + materialCost) {
+//     alert("The cost equals"); 
+// }
+
+// e
+
+// if (true)  {
+//     alert("True");
+// }
+
+// if (false) {
+//     alert("False"); 
+// }
+
+// f
+
+// if("car" < "cat") {
+//     alert("car is smaller than cat"); 
+// }
+
+// // Question No 6
+
+// var first_sub_marks = +prompt("Enter Marks of First Subject "  + "\n Please Enter Valid Number(0-100)")
+// var second_sub_marks = +prompt("Enter Marks of Second Subject "  + "\n Please Enter Valid Number(0-100)")
+// var third_sub_marks = +prompt("Enter Marks of Third Subject "  + "\n Please Enter Valid Number(0-100)")
+// var total_marks = +prompt("Enter Total Marks");
+// var obtain_marks = first_sub_marks+second_sub_marks+third_sub_marks
+// var the_percentage =  ((obtain_marks/(total_marks))*100)
+
+// document.write ( "<h1>" + "Marks Sheet" + "</h1>")
+// document.write ( "<h3>" + "Total Marks:  " + total_marks + "</h3>")
+// document.write ( "<h3>" + "Marks Obtained:  " + obtain_marks + "</h3>")
+// document.write ( "<h3>" + "Percentage:  " + the_percentage + "%" + "</h3>")
+
+// if (the_percentage >= 80) {
+//     document.write ( "<h3>" + "Grade:  " + "A-one" + "</h3>")
+//     document.write ( "<h3>" + "Remarks:  " + "Excellent" + "</h3>")
+// }
+// else if (the_percentage >= 70) {
+//     document.write ( "<h3>" + "Grade:  " + "A" + "</h3>")
+//     document.write ( "<h3>" + "Remarks:  " + "Good" + "</h3>")
+// }
+// else if (the_percentage >= 60) {
+//     document.write ( "<h3>" + "Grade:  " + "B" + "</h3>")
+//     document.write ( "<h3>" + "Remarks:  " + "You Need to Improve" + "</h3>")
+// } else {
+//     document.write ( "<h3>" + "Grade:  " + "Failed" + "</h3>")
+//     document.write ( "<h3>" + "Remarks:  " + "Sorry" + "</h3>")
+// }
+
+// // Question No 7
+
+// var secretNumber = 6;
+// var guessNumber = +prompt("Guess The Secret Number (0-10)")
+
+// if (guessNumber === secretNumber) {
+//     alert("Bingo! Correct Answer");
+// }
+// else if (guessNumber === 5 || guessNumber === 7) {
+//     alert("Close enough to the correct answer");
+// } else {
+//     alert("Sorry! Wrong Answer");
+// } 
+
+// // Quesiton No 8
+
+// var numTaken = +prompt("Enter Your Number:");
+// var afterCheck = numTaken%3;
+
+// if (numTaken < 1) {
+//     alert("Enter Valid Number");
+// }
+// else{
+
+//     if (afterCheck === 0 ) {
+//         alert("Number is Divisible by 3");
+//     } else {
+//         alert("Number is not Divisible by 3");
+//     }
+// }
+    
+// // Question No 9
+
+// var num_taken = +prompt("Enter Your Number:");
+// var after_check = num_taken%2;
+
+// if (num_taken < 1) {
+//     alert("Enter Valid Number");
+// }
+// else{
+
+//     if (after_check === 0 ) {
+//         alert("Even Number!");
+//     } else {
+//         alert("Odd Number!");
+//     }
+// }
+
+// // Question No 10
+
+// var temperature = +prompt("Enter current temperature: \n(In Degree Centigrade)");
+
+// if (temperature >= 40) {
+//     alert("It is Too Hot Outside.")
+// }
+// else if (temperature >= 30) {
+//     alert("The Weather today is Normal.")
+// }
+// else if (temperature >= 20) {
+//     alert("Today’s Weather is cool.")
+// }
+// else if (temperature >= 0) {
+//     alert("OMG! Today’s weather is so Cool.")
+// }
+
+// // Question No 11 
+
+// var num1 = +prompt("Enter First Number");
+// var opr = prompt("Enter Operator (+ - * /)");
+// var num2 = +prompt("Enter Second Number");
+
+// var result ;
+
+// if (opr === "+") {
+//     result = num1 + num2
+//     alert (result);
+// }
+
+// else if (opr === "-") {
+//     result = num1 - num2
+//     alert (result);
+// }
+
+// else if (opr === "*") {
+//     result = num1 * num2
+//     alert (result);
+
+// }
+
+// else if (opr === "/") {
+//     result = num1 / num2
+//     alert (result);
+
+// }
+
+// else {
+//     alert("Enter Correct Operator")
+// }
+
