@@ -606,3 +606,122 @@
 //     alert("Enter Correct Operator")
 // }
 
+// // Chapter No 12-13
+// // Question No 1
+
+// var input = prompt("Enter Your Input Here: \n(number or uppercase letter or lower case letter)")
+
+// var ascii = input.charCodeAt(0)
+
+// if (ascii >= 65 && ascii <= 90){
+//     alert("you input a Capital letter")
+// } else if (ascii >= 97 && ascii <=122){
+//     alert("you input a Small letter")
+// }else if (ascii >= 48 && ascii <=57){
+//     alert("you input a number")
+// }
+//  else{
+//     alert ("Invalid Input")
+// }
+
+// // Question No 2 
+
+// var firstNumber = +prompt("Enter a number 1 ")
+// var secondNumber = +prompt("Enter a number 2 ")
+
+// if (firstNumber > secondNumber) {
+//         alert(firstNumber + " is greater than " + secondNumber)
+// } else {
+//         alert(secondNumber + " is greater than " + firstNumber)
+// }
+
+// // Question No 3
+
+// var number = +prompt("Enter the number: ")
+
+// if (number > 0) {
+//     alert("Positive number")
+// }
+// else if (number < 0) {
+//     alert("Negative number")
+// }
+// else if (number === 0) {
+//     alert("Zero")
+// }
+// else {
+//     alert("Invalid Input")
+// }
+
+// // Question No 4
+
+// var letter = prompt("Write a letter:")
+
+// if (letter === "a" ||letter === "A" ||letter === "e" ||letter === "E" ||letter === "i" ||letter === "I" ||letter === "o" ||letter === "O" ||letter === "U" ||letter === "u" ) {
+//     alert("True!  (It is Vowel)")    
+// } else {
+//     alert("False! (It is not Vowel)")
+// }
+
+// // Question No 5
+
+// var correctPassword1 = "0987654123";
+// var correctPassword2 = "qwerty";
+
+// var password1 = prompt("Enter Your First Password: ");
+
+// if (password1 === "" ) {
+//     alert("Please Enter Valid Password!")  
+// }else {
+// var password2 = prompt("Enter Your Second Password: ");
+// if (password2 === "") {
+//     alert("Please Enter Valid Password!")  
+// }
+// else {
+//     if (password1 === correctPassword1 && password2 === correctPassword2) {
+//         alert("Correct! The password you entered matches the original password")
+//     } else {
+//         alert("Incorrect Password!")
+//     }
+// }
+// }
+
+// // Question No 6
+
+// var greeting;
+
+// var hour = 13;
+
+// if (hour < 18) {
+//     greeting = "Good day";
+//     alert(greeting)
+// }
+// else {
+//     greeting = "Good evening";
+//     alert(greeting)
+// }
+
+// // Question No 7
+
+// var inputTime = prompt("Please Enter Time In 24 Hours Format");
+// if (inputTime === "") {
+//     alert("Enter Valid Time In 24 Hours Format!")
+// } else {
+
+//     if (inputTime >= 0000 && inputTime < 1200 ) {
+//         alert("Good Morning!")
+//     } 
+//     else {
+//         if (inputTime >= 1200 && inputTime < 1700 ) {
+//             alert("Good Afternoon!")
+//     } else {
+//         if (inputTime >= 1700 && inputTime < 2100 ) {
+//             alert("Good Evening!")
+//         } else {
+//             if (inputTime >= 2100 && inputTime <= 2359 ) {
+//                 alert("Good Night!")
+//             }
+//         }
+//     }
+// }
+// }
+
