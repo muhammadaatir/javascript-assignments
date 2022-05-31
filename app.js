@@ -725,3 +725,193 @@
 // }
 // }
 
+// // Chapter No 14-16
+// // Question No 1 & 2
+
+// var studentNames = [];
+
+// // Question No 3
+
+// var stringArray = ["Karachi", "Lahore", "Islamabad", "Multan"];
+
+// // Question No 4
+
+// var numberArray = [1,2,3,4,5,6,7,8,9];
+
+// // Question No 5
+
+// var booleanArray = [true, false];
+
+// // Question No 6
+
+// var mixedArray = ["Pakistan", "India", 5, 6, 7, 8, true, false];
+
+// // Question No 7
+
+// var qualificationsInPakistan = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M. Phil.", "PhD"]; 
+
+// // Question No 8
+
+// var names = ["Ahmed", "Ali", "Bilal"];
+// var score = [489, 401, 367];
+// var total = 500;
+
+// document.write("<h3>" + "Score of " + names[0] + "  is " + score[0] + ". Pecentage:  " + ((score[0]*100)/total) + "%" + "</h3>")
+// document.write("<h3>" + "Score of " + names[1] + "  is " + score[1] + ". Pecentage:  " + ((score[1]*100)/total) + "%" + "</h3>")
+// document.write("<h3>" + "Score of " + names[2] + "  is " + score[2] + ". Pecentage:  " + ((score[2]*100)/total) + "%" + "</h3>")
+
+// // Question No 9
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+// document.write(colorNames);
+
+// // Question No 9a
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+// var first = prompt("What colour you want to add to the beginning");
+
+// colorNames.unshift(first)
+// document.write("<h3>" + "Updated Colour List" +"</h3>")
+// document.write(colorNames);
+
+// // Question No 9b
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+// var second = prompt("What colour you want to add in the end");
+// colorNames.push(second)
+// document.write("<h3>" + "Updated Colour List" +"</h3>")
+// document.write(colorNames);
+
+// // Question No 9c
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+// var colorInput1 = prompt("Enter a color 1 name which do you want to add at the beginning.");
+// var colorInput2 = prompt("Enter a color 2 name which do you want to add at the beginning.");
+
+// colorNames.unshift(colorInput1)
+// colorNames.unshift(colorInput2)
+// document.write("<h3>" + "Updated Colour List" +"</h3>")
+// document.write(colorNames);
+
+// // Question No 9d
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+
+// colorNames.shift()
+// document.write("<h3>" + "Updated Colour List" +"</h3>")
+// document.write(colorNames);
+
+// // Question No 9e
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+
+// colorNames.pop()
+// document.write("<h3>" + "Updated Colour List" +"</h3>")
+// document.write(colorNames);
+
+// // Question No 9f
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+
+// var third = prompt("Enter a color name which do you want to add ");
+// var number = +prompt("At which position you want to add color?");
+// colorNames.splice(number, 0, third);
+// document.write(colorNames);
+
+// // Question No 9g
+
+// var colorNames = [" Red ", " Green ", " Blue ", " Yellow ", " Black "];
+
+// var index = +prompt("Enter index number from where you want to delete colors?");
+// var numberOfColor = +prompt("Enter how many colors you want to delete?");
+
+// colorNames.splice(index, numberOfColor);
+// document.write(colorNames)
+
+// // Question No 10
+
+// var studentScores = [87,76,93,56,73,84,90,48];
+// document.write("Scores of Students :  " + studentScores);
+
+
+// var sortedScores = studentScores.sort()
+
+// document.write("<br/>" + "<br/>" + "Ordered Scores of Students :  " + studentScores);
+
+// // Question No 11
+
+// var  citiesNames = ["Karachi", "Lahore", "Multan", "Islamabad", "Quetta" ];
+
+// var selectedCities = citiesNames.slice(0, 3)
+
+// document.write("<h3>" + "Cities Names" +"</h3>")
+
+// document.write("<h4>" + citiesNames +"</h4>")
+
+// document.write("<h3>" + "Selected Cities Names" +"</h3>")
+
+// document.write("<h4>" + selectedCities +"</h4>")
+
+// // Question No 12
+
+// var arr = ["This", "is", "my",  "cat"];
+// document.write("<h1>" + "Array:  "+ "</h1>");
+// document.write("<h1>" + arr + "</h1>" +"<br>");
+
+// var joined_arr = arr.join(" ");
+
+// document.write("<h1>" + "String:  "+ "</h1>");
+// document.write("<h1>" + joined_arr + "</h1>" +"<br>");
+
+// // Question No 13
+
+// var devices = ["keyboard", "mouse", "monitor",  "printer"];
+
+// document.write("<h2>" + "Devices:  "+ "</h2>");
+// document.write("<h2>" + devices + "</h2>" +"<br>");
+
+// var firstDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + firstDevice +"</h2>")
+
+// var secondDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + secondDevice +"</h2>")
+
+// var thirdDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + thirdDevice +"</h2>")
+
+// var fourthDevice = devices.shift();
+// document.write("<h2>" + "Out:" + "<br/>" + fourthDevice +"</h2>")
+
+// // Question No 14    
+
+// var devices = ["keyboard", "mouse", "monitor",  "printer"];
+
+// document.write("<h2>" + "Devices:  "+ "</h2>");
+// document.write("<h2>" + devices + "</h2>" +"<br>");
+
+// var firstDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + firstDevice +"</h2>")
+
+// var secondDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + secondDevice +"</h2>")
+
+// var thirdDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + thirdDevice +"</h2>")
+
+// var fourthDevice = devices.pop();
+// document.write("<h2>" + "Out:" + "<br/>" + fourthDevice +"</h2>")
+
+// // Question No 15
+
+// var mobileCompanies = ["Apple","Samsung", "Motorola", "Nokia","Sony", "Haier"];
+
+
+//     document.write("<select>")
+//         document.write("<option>"  + mobileCompanies[0]  + "</option>")
+//         document.write("<option>" + mobileCompanies[1] + "</option>")
+//         document.write("<option>" + mobileCompanies[2] + "</option>")
+//         document.write("<option>" + mobileCompanies[3] + "</option>")
+//         document.write("<option>" + mobileCompanies[4] + "</option>")
+//         document.write("<option>" + mobileCompanies[5] + "</option>")
+//         document.write("</select>")
+
