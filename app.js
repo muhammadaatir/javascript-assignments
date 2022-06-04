@@ -537,7 +537,7 @@
 //         alert("Number is not Divisible by 3");
 //     }
 // }
-    
+
 // // Question No 9
 
 // var num_taken = +prompt("Enter Your Number:");
@@ -906,12 +906,152 @@
 // var mobileCompanies = ["Apple","Samsung", "Motorola", "Nokia","Sony", "Haier"];
 
 
-//     document.write("<select>")
-//         document.write("<option>"  + mobileCompanies[0]  + "</option>")
-//         document.write("<option>" + mobileCompanies[1] + "</option>")
-//         document.write("<option>" + mobileCompanies[2] + "</option>")
-//         document.write("<option>" + mobileCompanies[3] + "</option>")
-//         document.write("<option>" + mobileCompanies[4] + "</option>")
-//         document.write("<option>" + mobileCompanies[5] + "</option>")
-//         document.write("</select>")
+// document.write("<select>")
+// document.write("<option>"  + mobileCompanies[0]  + "</option>")
+// document.write("<option>" + mobileCompanies[1] + "</option>")
+// document.write("<option>" + mobileCompanies[2] + "</option>")
+// document.write("<option>" + mobileCompanies[3] + "</option>")
+// document.write("<option>" + mobileCompanies[4] + "</option>")
+// document.write("<option>" + mobileCompanies[5] + "</option>")
+// document.write("</select>")
+
+// // Chapter No 17-20
+// // Question No 1
+
+// var mulDimArr = [[], [], []];
+
+// // Question No 2
+
+// var mulDimArray = [[0, 1, 2, 3], [1, 0, 1, 2], [2, 1, 0, 1]]
+
+// document.write(mulDimArray[0] + "<br>" + mulDimArray[1] + "<br>" + mulDimArray[2] + "<br>");
+
+// // Question No 3
+
+// for (var i = 1; i <= 10; i++) {
+//     document.write(i + "<br />")
+// }
+
+// // Question No 4
+
+// var tableOf = +prompt("Enter number to  show its multiplication table:");
+// var tableStart = +prompt("Start of " + tableOf + "'s table:")
+// var tableTill = +prompt("End of " + tableOf + "'s table:");
+
+// document.write("<h4>" + "Table of " + tableOf + "</h4>")
+
+// for (var i = tableStart; i <= tableTill ; i++) {
+//     document.write("<h4>" + tableOf + " x " + i + " = " + tableOf*i + "</h4>")
+// }
+
+// // Question No 5
+
+// var fruits = ["apple", "banana", "mango", "orange", "strawberry"];
+
+// for (var i = 0; i < fruits.length ; i++) {
+//     document.write(fruits[i] + "<br/>")
+// }
+// document.write("<br/>" + "<br/>")
+// for (var i = 0; i < fruits.length ; i++) {
+//     document.write("Element at index  " + i + " is " + fruits[i], "<br>")
+// }
+
+// // Question No 6
+
+// document.write("<h1>" + "Counting:" + "</h1>");
+// for (var i = 1; i <= 15 ; i++) {
+//     document.write(i + " ")
+// }
+
+// document.write("<h1>" + "Reverse Counting:" + "</h1>");
+// for (var i = 10; i >= 1 ; i--) {
+//     document.write(i + " ")
+// }
+
+// document.write("<h1>" + "Even Numbers:" + "</h1>");
+// for (i = 0; i <= 20; i++) {
+
+//     if (i % 2 == 0) {
+//         document.write(i + " ")
+//     }
+// }
+
+// document.write("<h1>" + "Odd Numbers:" + "</h1>");
+// for (i = 0; i <= 20; i++) {
+
+//     if (i % 2 == 0) {
+
+
+//     } else {
+//         document.write(i + " ")
+//     }
+// }
+
+// document.write("<h1>" + "Series:" + "</h1>");
+// for (i = 2; i <= 20; i++) {
+
+//     if (i % 2 == 0) {
+//         document.write(i + "k" + "  ")
+//     }
+// }
+
+// // Question No 7
+
+// A = ["cake", "apple pie", "cookie", "chips", "patties"];
+// userInput = prompt("Enter a snack :")
+// flag = false;
+// for (i = 0; i <= A.length; i++) {
+//     if (userInput == A[i]) {
+//         flag = true;
+//         userInput = A[i];
+//         number = i;
+//     }
+// }
+// if (flag == true) {
+//     document.write(userInput + " is available at index " + number + " in our bakery")
+// }
+// else {
+//     document.write("We are Sorry. " + userInput + " is not available")
+// }
+
+// // Question No 8
+
+// var a = [24, 53, 78, 91, 12];
+// var max = 0;
+
+// document.write("<h4>" + "Array Items:   " + a + "</h4>");
+
+// for(var i = 0; i < a.length; i++){
+//         if(max < a[i]){
+//             max = a [i];
+//         }
+// }
+
+// document.write("<h4>" + "The largest number is " + max + "</h4>")
+
+// // // Question No 9
+
+// var arr1 = [24, 53, 78, 91, 12]
+// var min = arr1[0];
+
+// document.write("<h4>" + "Array Items:   " + arr1 + "</h4>");
+
+// for(var i = 0; i < arr1.length; i++){
+//         if(min > arr1 [i]){
+//             min = arr1 [i];
+//         }
+// }
+
+// document.write("<h4>" + "The smallest number is " + min + "</h4>")
+
+// // Question No 10
+
+// var mulitple = 5;
+
+// for (i = 1; i <= 100; i++) {
+
+//         if (i % mulitple == 0) {
+//             document.write(i + " ")
+//         }
+// }
 
