@@ -1191,10 +1191,8 @@
 
 // if (A.indexOf(snakcsInput) !== -1) {
 //     document.write(snakcsInput + " is available at index " + A.indexOf(snakcsInput))
-// }
-// else {
+// }else {
 //     document.write("Sorry, " + snakcsInput + " is not available in our bakery")
-
 // }
 
 // // Question No 15
@@ -1256,139 +1254,109 @@
 
 // // Question No 17
 
-    // var word = prompt("Enter a word:  ");
-    // var LastChar = (word.length) - 1;
+// var word = prompt("Enter a word:  ");
+// var LastChar = (word.length) - 1;
 
-    // document.write("Last Character of your Input" + word[LastChar])
+// document.write("Last Character of your Input" + word[LastChar])
 
 // // Question No 18
 
-    // var line = "The quick brown fox jumps over the lazy dog.";
+// var line = "The quick brown fox jumps over the lazy dog.";
 
-    // var lowest = line.toLowerCase()
-    // var splitedvalue = lowest.split(" ");
-    // var coutString = 'the';
+// var lowest = line.toLowerCase()
+// var splitedvalue = lowest.split(" ");
+// var coutString = 'the';
 
-    // var count = 0;
-    // for (var i = 0; i < splitedvalue.length; i++) {
-    //     if (coutString == (splitedvalue[i]))
-    //         count++;
-    // }
+// var count = 0;
+// for (var i = 0; i < splitedvalue.length; i++) {
+//     if (coutString == (splitedvalue[i]))
+//         count++;
+// }
 
-    // document.write("Text : " + line + "<br>")
-    // document.write("There are " + count + " occurrence(s) of the word 'the' ");
+// document.write("Text : " + line + "<br>")
+// document.write("There are " + count + " occurrence(s) of the word 'the' ");
 
-// // Chapter 26-30 : Math Method
-
+// // Chapter No 26-30 
 // // Question No 1
 
-// function mathFunctions() {
-//     var number = +prompt("Enter a positive integer : ")
+// var num = +prompt("Enter a Positive Integer:  (with decimals) ")
 
-//     document.write("Number:  " + number + "<br>");
-//     document.write("round of value: " + Math.round(number) + "<br>");
-//     document.write("floor value: " + Math.floor(number) + "<br>");
-//     document.write("Ceil value: " + Math.ceil(number) + "<br>");
+// document.write("Number:  " + num + "<br>");
+// document.write("round of value: " + Math.round(num) + "<br>");
+// document.write("floor value: " + Math.floor(num) + "<br>");
+// document.write("Ceil value: " + Math.ceil(num) + "<br>");
 
+// // Question No 2
+
+// var num = +prompt("Enter a negative floating point:  ")
+
+// document.write("Number:  " + num + "<br>");
+// document.write("round of value: " + Math.round(num) + "<br>");
+// document.write("floor value: " + Math.floor(num) + "<br>");
+// document.write("Ceil value: " + Math.ceil(num) + "<br>");
+
+// // Question No 3
+
+// var number = prompt("Enter a negative number : ")
+// var absNumber = number * -1;
+
+// document.write("The Absolute value of " + number + "is" + absNumber)
+
+// // Question No 4
+
+// var randomvalues = + prompt("How many times you want to roll the dice?","1");
+
+// for (i = 1; i < randomvalues+1; i++) {
+//     var randomNumber = Math.floor((Math.random() * 6)) + 1;
+//     document.write(i + " times dice value : " + randomNumber + "<br>")
+// }
+
+// // Question No 5
+
+// var user = prompt("Choose heads or tails: ", "heads")
+// if (user === "heads" || user === "tails") {
+//     var value = ["heads", "tails"]
+//     var randomNumber = Math.floor(Math.random() * value.length);
+//     var word = value[randomNumber];
+//     document.write("Random coin value : " + word + "<br>")
+
+//     if (word === user) {
+//         document.write("You Win")
+//     } else {
+//         document.write("You Lose, Better Luck Next Time")
+//     }
+// } else {
+//     document.write("Enter The Correct Value (heads or tails)")
+// }
+
+// // Question No 6
+
+// for (i = 1; i < 11; i++) {
+//     var randomNumber = Math.floor(Math.random() * 100);
+//     document.write("Random number between 1 to 100 : " + randomNumber + "<br>")
+// }
+
+// // Question No 7
+
+// userInput = prompt("Enter your weight in kilogram");
+
+// if (userInput.indexOf('.')) {
+
+//     document.write("The Weight of user is : " + parseFloat(userInput) + " Kilogram")
+// }
+// else {
+//     document.write("The Weight of user is : " + parseInt(userInput) + " Kilogram")
 
 
 // }
 
+// // Question No 8
 
-// // q2
-
-// function mathFunctionsNegative() {
-//     var number = +prompt("Enter a negative floating value : ")
-
-//     document.write("Number:  " + number + "<br>");
-//     document.write("round of value: " + Math.round(number) + "<br>");
-//     document.write("floor value: " + Math.floor(number) + "<br>");
-//     document.write("Ceil value: " + Math.ceil(number) + "<br>");
-
-
-
+// var randomNum = Math.floor(Math.random() * 10) + 1;
+// var userInput = +prompt("Enter a guess number : ")
+// if (userInput === randomNum) {
+//     alert("you Win")
 // }
-
-// // q3
-// function absoluteValue() {
-
-//     var number = prompt("Enter a number : ")
-//     if (number < 0) {
-
-//         var absNumber = number * -1;
-//         document.write("The Absolute value of " + number + "is" + absNumber)
-//     }
-//     else {
-//         document.write("The Absolute value of " + number + " is " + number)
-//     }
-
-
-
-
-// }
-
-// // q4
-// function rollDice() {
-//     var randomvalues = + prompt("How many random value do you want to after roll the dice?")
-//     for (i = 1; i < randomvalues; i++) {
-//         var randomeNumber = Math.floor((Math.random() * 6)) + 1;
-//         document.write("Randome dice value : " + randomeNumber + "<br>")
-//     }
-
-
-// }
-
-// // q5
-// function headtail() {
-//     for (i = 1; i < 5; i++) {
-//         var HT = ["Heads", "Tails"]
-//         var randomNumber = Math.floor(Math.random() * HT.length);
-//         var word = HT[randomNumber];
-//         document.write(randomNumber + 1 + "<br>" + "Random coin value : " + word + "<br>")
-
-
-//     }
-
-
-// }
-
-// // q7
-// function randomNumber() {
-//     for (i = 1; i < 5; i++) {
-//         var randomNumber = Math.floor(Math.random() * 100);
-//         document.write("Random number between 1 to 100 : " + randomNumber + "<br>")
-//     }
-
-
-// }
-// // q8
-// function parseInteger() {
-
-//     userInput = prompt("Enter your weight in kilogram");
-
-//     if (userInput.indexOf('.')) {
-
-//         document.write("The Weight of user is : " + parseFloat(userInput) + " Kilogram")
-//     }
-//     else {
-//         document.write("The Weight of user is : " + parseInt(userInput) + " Kilogram")
-
-
-//     }
-
-
-// }
-
-// // q9
-// function randomNumbers() {
-//     var randomNumber = Math.floor(Math.random() * 10) + 1;
-//     var userInput = +prompt("Enter a guess number : ")
-//     if (userInput === randomNumber) {
-//         alert("you Win")
-//     }
-//     else {
-//         alert("Try again !")
-//     }
-
-
+// else {
+//     alert("Try again !")
 // }
