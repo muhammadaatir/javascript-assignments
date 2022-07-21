@@ -1360,3 +1360,154 @@
 // else {
 //     alert("Try again !")
 // }
+
+// // Chapter No 31-34
+// // Question No 1
+
+// var curDate = new Date();
+
+// document.write(curDate);
+
+// // Question No 2
+
+// var Month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+// var currentMonth = new Date().getMonth();
+// document.write("Current Month : " + Month[currentMonth]);
+
+// // Question No 3
+
+// var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+// var currentDay = new Date().getDay();
+
+// document.write("Today is " + days[currentDay]);
+
+// // Question No 4
+
+// var currentDay = new Date().getDay();
+// var days = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"]
+
+// if (days[currentDay] === "Sun" || days[currentDay] === "Sun") {
+
+//     document.write("Its fun day")
+// }
+// else {
+//     document.write("Focus on your work/studies")
+
+// }
+
+// // Question No 5
+
+// var currentDate = new Date().getDay();
+
+// if (currentDate === 15 || currentDate < 16) {
+//     alert('First Fifteen Days of the month')
+// } else {
+//     alert('Last Fifteen Days of the month')
+// }
+
+// // Question No 6
+
+// var currentDate = new Date();
+// document.write("Current Date : " + currentDate + "<br>");
+
+// var MidNightJan = new Date("jan 1, 1970").getTime();
+
+
+// var diff = currentDate - MidNightJan;
+// document.write("Elapsed Millisecond since January 1, 1970: " + diff + "<br>");
+
+// var Minutes = diff / (1000 * 60 * 60);
+// document.write("Elapsed Minutes since January 1, 1970: " + Math.round(Minutes));
+
+// // Question No 7
+
+// var time = new Date().getHours();
+// if (time >= 12) {
+//     alert("Its PM")
+// }
+// else {
+//     alert("Its Am")
+// }
+
+// // Question No 8
+
+// var laterDate = new Date("Dec 31, 2020");
+
+// document.write("Later Date: " + laterDate)
+
+// // Question No 9
+
+// var date = new Date("April 2, 2022");
+// var current = new Date();
+// var diff = current - date;
+
+// var RamzanDaysPassed = Math.round(diff / (1000 * 60 * 60 * 24));
+// document.write(RamzanDaysPassed + " days have Passed since 1st Ramzan, 2022")
+
+// // Question No 10 
+
+// var date = new Date("Jan 01, 2015");
+// var current = new Date();
+// var diff = current - date;
+
+// var secPassed = Math.round(diff / (1000 * 60))
+// document.write("On Refernce date " + current + "," + "<br/  >" + secPassed + "  seconds Passed since begning of 2015");
+
+// // Question No 11 
+
+// var curDate = new Date();
+// document.write("Current date  " + curDate + "<br/>")
+
+// var back = new Date();
+// var newTime = back.getHours() - 1;
+// back.setHours(newTime)
+
+// document.write("100 Years Back, It was  " + back )
+
+// // Question No 12
+
+// var curDate = new Date();
+// document.write("Current date  " + curDate + "<br/>")
+
+// var back = new Date();
+// var newYear = back.getFullYear() - 100;
+// back.setFullYear(newYear)
+
+// document.write("100 Years Back, It was  " + back )
+
+// // Question No 13 
+
+// var userAge = +prompt("Enter Your Age:  ")
+
+// var curDate = new Date();
+// var curYear = curDate.getFullYear()
+
+// var birthYear = curYear - userAge ;
+
+// document.write("Your Age is: " + userAge + "<br/>")
+// document.write("Your Birth Year is: " + birthYear)
+
+// // Question No 14
+
+// var name = prompt("Enter Your Name:  ");
+// var curMonth = new Date().getMonth();
+// var units = +prompt("Enter Number of Units Used:  ");
+// var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+// var unitprice = 22;
+// var latePayment = 450;
+// var inPay = units*unitprice;
+// var afPay = inPay + latePayment;
+
+// document.write("<h3>" + "K-Electric Bill" + "</h3>" + "<br />")
+// document.write( "Customer Name:  " + name + "<br />")
+// document.write( "Month:  " + months[curMonth] + "<br />")
+// document.write( "Number of Units:  " + units + "<br />")
+// document.write( "Charges per Unit:  " + unitprice + "<br />")
+// document.write( "Net Amount (Payable within due date):  " + inPay + "<br />")
+// document.write( "Late Payment Surcharge:  " + latePayment + "<br />")
+// document.write( "Gross Amount (After due date):  " + afPay + "<br />")
+
+// // Chapter No 35-38
+
+// // Question No 1
+
