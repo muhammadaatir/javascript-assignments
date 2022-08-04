@@ -1743,3 +1743,178 @@
 // var radius = prompt("Enter radius of Circle");
 // calcCircumference(radius);
 // calcArea(radius);
+
+// // Chapter No 38 - 42
+
+// // Question No 1
+
+// var result = 1;
+
+// function power(a, b) {
+//     for (var i = 0; i < b; i++) {
+
+//         result *= a
+//     }
+//     console.log(result)
+// }
+
+// // Question No 2
+
+
+// function leapyear() {
+
+//     var input = +prompt("Enter a Year");
+
+//     if (input % 4 !== 0) {
+//         alert("It is not a Leap Year")
+//     } else {
+//         alert("It is a Leap Year")
+//     }
+
+//     return(input % 4)
+// }
+
+// // Question No 3
+
+
+
+// // Question No 4
+
+// var firstSub = +prompt("Enter Obtained Marks of First Subject  (Out of 100)")
+// var secondSub = +prompt("Enter Obtained Marks of Second Subject  (Out of 100)")
+// var thirdSub = +prompt("Enter Obtained Marks of Third Subject  (Out of 100)")
+// var obtMarks = firstSub+secondSub+thirdSub;
+// var totMarks = 300;
+
+// function mainFunction(){
+//     function avg(){
+//         var average = (obtMarks) / 3
+//         return average;
+//     }
+//     function perc(){
+//         var percentage = (obtMarks*100) / totMarks
+//         return percentage;
+//     }
+//     document.write("The Average is " + avg().toFixed(2) + "And Your Percentage is " + perc().toFixed(2))
+// }
+
+// mainFunction(firstSub, secondSub, thirdSub)
+
+// // Question No 5
+
+// function ownIndexOf() {
+//     var userInput = prompt("Enter Your Sentence").toLowerCase();
+//     var indexLetter = prompt("Enter the letter to find its index number");
+//     for (i = 0; i < userInput.length; i++) {
+//         if (userInput[i] === indexLetter) {
+//             console.log("Your Letter " + indexLetter + " is at " + i + " index number.");
+//             break;
+//         }
+//         else if (i === userInput.length - 1) {
+//             console.log("nhi hai");
+//         }
+
+//     }
+// }
+
+// // Question No 6
+
+// function toRemoveVowels() {
+//     var sentence = prompt("Enter Your Sentence " + "The Sentence should not be longer than 25 characters.").split("");
+//     if (sentence.length > 25) {
+//         alert("Your Sentence is longer than 25 characters.")
+//     } else {
+
+//         var arr = [];
+//         var flag = false;
+//         var vowel = "aeiou";
+//         for (i = 0; i < sentence.length; i++) {
+//             flag = false;
+//             for (j = 0; j < vowel.length; j++) {
+//                 if (sentence[i] === vowel[j]) {
+//                     flag = true;
+//                 }
+//             }
+//             if (flag === false) {
+//                 arr.push(sentence[i]);
+//             }
+//         }
+//         return arr.join("");
+//     }// }
+// var result = toRemoveVowels();
+// alert(result);
+
+// // Question No 7
+
+
+// function doubleVowels() {
+//     var str = prompt("Enter a sentence to find double vowels: ")
+//     var res = str.match(/[aeiou]{2}/g);
+//     return res ? res.length : 0;
+// }
+
+// var result = doubleVowels();
+
+// console.log(result);
+
+// // Question No 8
+
+// var input = +prompt("Enter Distance in km");
+
+// function kmToMeter(km) {
+//     return km * 1000;
+// }
+
+// function kmToFeet(km) {
+//     return km * 3280.84;
+// }
+
+// function kmToInches(km) {
+//     return km * 39370.1;
+// }
+
+// function kmToCentiMeter(km) {
+//     return km * 100000;
+// }
+
+// var kmtoMeter = kmToMeter(input);
+// var kmtoFeet = kmToFeet(input);
+// var kmtoInches = kmToInches(input);
+// var kmtoCentiMeter = kmToCentiMeter(input);
+
+// document.write("Your Distance in Kilometer: " + input + ". Your Distance in Meter: " + kmtoMeter + ". Your Distance in Feet: " + kmtoFeet + ". Your Distance in Inches: " + kmtoInches + ". Your Distance in centimeter: " + kmtoCentiMeter)
+
+// // Question No 9
+
+
+// function overtimePay() {
+//     var input = +prompt("Enter your Total Work Hour");
+//     if ((input - 40 !== Math.abs(input - 40))) {
+//         return alert("You Didn't do Overtime");
+//     }
+//     else {
+//         return alert("You get " + (input - 40) * 12 + " Rs for your overtime");
+//     }
+// }
+
+// // Question No 10
+
+// function cash() {
+//     var currency = prompt("Enter Cash");
+
+//     console.log(currency[0] + " " + "100 notes")
+//     if (currency[1] < 5) {
+//         console.log(currency[1] + "10 notes")
+
+//     }
+//     else {
+
+//         console.log("1" + " " + "50 note")
+//         document.write("<br>")
+//         console.log((currency[1] - 5) + " " + "10 note")
+
+//     }
+
+// }
+// cash();
+
